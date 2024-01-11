@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/libs/bootstrap.css.css" />
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/animate/animate.css" />
+    <link rel="icon" href="assets/photos/Fav.jpg" />
+  </head>
+  <body>
+    <!-- CONTACT SECTION START -->
+    <section class="col-12 contact_section">
+      <div class="col-12 close_div">
+        <button class="close_resume" onclick="returnToHome()">x</button>
+      </div>
+      <div class="col-12 Portfolio_word">
+        <p class="col-12">Feel free to contact me anytimes</p>
+        <h1 class="col-12">Contact me</h1>
+        <div class="col-1 line___div"></div>
+      </div>
+      <section class="col-12 message_info">
+        <div class="message_me">
+          <h2 class="col-12">Message me</h2>
+          <!-- FORM TAHT CONTAIN ALL INPUTS START -->
+          <form class="col-12" id="contact_form">
+           
+              <label for="name">Please enter your name</label>
+              <input id="name"
+                type="text"
+                placeholder="Name"
+                class=" col-12 col-md-12 col-lg-12 smallinput1"
+                required
+              />
+              <label for="email">Please enter your email</label>
+              <input id="email"
+                type="email"
+                placeholder="Email"
+                class=" col-12 col-md-12 col-lg-12 smallinput2"
+                pattern="[^ @]*@[^ @]*" size="30" 
+                required
+              />
+              <label for="subject">Please enter the subject</label>
+              <input id="subject"
+                type="text"
+                placeholder="Subject"
+                class="col-12 biginput1"
+                required
+              />
+              <label for="message">Please enter your message</label>
+              <input
+                type="text"
+                placeholder="Message"
+                class="col-12 biginput2"
+                id="message"
+                required
+              />
+            <button type="submit" class="Send_button col-12" value="submit" onclick="sendMessage()">
+              Send message
+            </button>
+          </form>
+          <!-- FORM END  -->
+          <!-- <h1 class="col-12 alertmeassage">Message sent successfuly</h1> -->
+        </div>
+        <!-- RIGHT CONTACT START -->
+        <div class="contact_info">
+          <h2 class="col-12">Contact Info</h2>
+          <p class="col-12">
+            Always available for freelance work if the right project comes
+            along, Feel free to contact me!
+          </p>
+          <div class="col-1 col-md-1 col-lg-2 icons_contact">
+            <i class="fa-solid fa-signature col-12"></i>
+            <i class="fa-solid fa-location-dot col-12"></i>
+            <i class="fa-solid fa-phone col-12"></i>
+            <i class="fa-solid fa-envelope col-12"></i>
+          </div>
+          <div class="line_contact"></div>
+          <div class="col-7 infoofcontact">
+            <div class="col-12">
+              <h1 class="col-12">Name</h1>
+              <p class="col-12">Ahmed Adel</p>
+            </div>
+            <div class="col-12">
+              <h1 class="col-12">Location</h1>
+              <p class="col-12">Egypt/New cairo</p>
+            </div>
+            <div class="col-12">
+              <h1 class="col-12">Call me</h1>
+              <p class="col-12">+201124367646</p>
+            </div>
+            <div class="col-12">
+              <h1 class="col-12">Email me</h1>
+              <p class="col-12">ahmedadel25828@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT CONTACT END  -->
+      </section>
+      <!-- CONTACT SECTION END  -->
+      <button id="back-to-top" title="Back to top">Top</button>
+    </section>
+    <script src="assets/contact.js"></script>
+  </body>
+</html>

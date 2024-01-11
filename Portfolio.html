@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/libs/bootstrap.css.css" />
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/animate/animate.css" />
+    <link rel="icon" href="assets/photos/Fav.jpg" />
+  </head>
+  <body>
+    <!-- PORTFOLIO SECTION START -->
+    <section class="col-12 Portfolio_section">
+      <div class="col-12 close_div">
+        <button class="close_resume" onclick="returnToHome()">x</button>
+      </div>
+      <div class="col-12 Portfolio_word">
+        <p class="col-12">Showcasing Some Of My Best Work</p>
+        <h1 class="col-12">Portfolio</h1>
+        <div class="col-1 line___div"></div>
+      </div>
+<!-- OUR WORK SECTION START -->
+      <section class="col-12 our_work">
+        <div class="col-12 TheLi">
+          <li class="work_li active" onclick="ShowAllWork()">All</li>
+          <li class="work_li" onclick="ShowParticularWork('Technology')">Technology</li>
+          <li class="work_li" onclick="ShowParticularWork('Ecommerce')">E-commerce</li>
+          <li class="work_li" onclick="ShowParticularWork('Education')">Education</li>
+          <li  class="work_li"  onclick="ShowParticularWork('Corporation')">Corporation</li>
+          <li class="work_li"  onclick="ShowParticularWork('RealEstate')">Real-Estate</li>
+          <li class="work_li"  onclick="ShowParticularWork('Motors')">Motors</li>
+        </div>
+        <!-- PARENT DIV THAT CONTAIN CHILD DIVS OF WORK -->
+        <div class="col-12 All_work">
+         
+        </div>
+      </section>
+      <!-- OUR WORK SECTION END  -->
+      <button id="back-to-top" title="Back to top">Top</button>
+    </section>
+
+    <script src="assets/portfolio.js"></script>
+  </body>
+</html>

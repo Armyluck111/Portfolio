@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/libs/bootstrap.css.css" />
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/animate/animate.css" />
+    <link rel="icon" href="assets/photos/Fav.jpg" />
+  </head>
+  <body>
+    <!-- MAIN SECTION OF HOME -->
+    <section class="col-12 main_section">
+      <video
+        src="assets/photos/pexels-pavel-danilyuk-5495784 (1440p).mp4"
+        class="col-12 main_video"
+        autoplay
+        loop
+        muted
+      ></video>
+      <!-- FILTER OF HOME PAGE THAT CONTAINS ALL CONTENT -->
+      <div class="col-12 filter">
+        <img src="assets/photos/Logo.jpg" class="col-6" />
+<!-- NAV BAR START -->
+        <div class="Nav">
+          <ul>
+            <li class="About" onclick="GoToAboutPage()">About</li>
+            <li class="Resume" onclick="GoToResumePage()">Resume</li>
+            <li class="Portfolio" onclick="GoToPortfolioPage()">Portfolio</li>
+
+            <li class="Contact" onclick="GoToContactPage()">Contact</li>
+          </ul>
+        </div>
+        <!-- NAV BARB END  -->
+        <!-- BAR ICON START -->
+        <div class="baricon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="baricon_div col-7 col-md-3 col-lg-2">
+          <p class="About_side col-2 col-md-8 col-lg-12" onclick="GoToAboutPage()" >About</p>
+          <p class="Resume_side col-2 col-md-8 col-lg-12" onclick="GoToResumePage()">Resume</p>
+          <p class="Portfolio_side col-2 col-md-8 col-lg-12" onclick="GoToPortfolioPage()">Portfolio</p>
+          <p class="Contact_side col-2 col-md-8 col-lg-12" onclick="GoToContactPage()">Contact</p>
+        </div>
+        <!-- NAV BAR END  -->
+        <!-- CONTENT OF HOME PAGE START -->
+        <div class="Name_programmer col-12">
+          <h1 class="col-col-3 col-md-12 col-lg-12">AHMED ADEL</h1>
+          <p
+            class="col-col-3 col-md-12 col-lg-12 animate__animated animate__backInRight animate__infinite"
+          >
+            I'm A Front-End Developer
+          </p>
+        </div>
+        <!-- CONTENT OF HOME PAGE START -->
+          <!-- MAIN ICONS START -->
+          <div class="main_icons col-12">
+            <a
+              href="https://www.linkedin.com/in/ahmed-adel-154b0a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><i class="fa-brands fa-linkedin icon"></i
+            ></a>
+            <a href="https://wa.me/+201124367646">
+              <i class="fa-brands fa-whatsapp icon"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100005476938336&mibextid=ZbWKwL"
+            >
+              <i class="fa-brands fa-facebook icon"></i
+            ></a>
+            <a
+              href="https://twitter.com/AhmedAd77338584?t=bB9et5bK0DUZhRTFRJK6Ag&s=09"
+            >
+              <i class="fa-brands fa-twitter icon"></i
+            ></a>
+           
+          
+     
+        </div>
+        <!-- MAIN ICONS END -->
+      </div>
+    </section>
+    <script src="assets/index.js"></script>
+  </body>
+</html>
