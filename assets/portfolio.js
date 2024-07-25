@@ -13,35 +13,31 @@ lis.forEach(li => {
   })
 });
 let All_work = {
-  Technology: {
-    img: "assets/photos/tech.jpg",
-    link_work:
-      "https://themeforest.net/item/ai-hub-startup-technology-wordpress-theme/47473638",
-  },
-  Ecommerce: {
-    img: "assets/photos/e commerce.jpg",
-    link_work:
-      "https://themeforest.net/item/secretsho-fashion-marketplace-wordpress-theme/22058416",
-  },
   Education: {
     img: "assets/photos/edu.jpg",
     link_work:
-      "https://themeforest.net/item/education-wordpress-theme-education-wp/14058034#",
+      "https://graduation-project-beryl-seven.vercel.app/",
   },
-  Corporation: {
+  Portfolio: {
+    img: "assets/photos/tech.jpg",
+    link_work:
+      "https://armyluck111.github.io/Portfolio/",
+  },
+ 
+  Cooporation: {
+    img: "assets/photos/6.png",
+    link_work:
+      "https://cooperation-app-ahmed-adels-projects-eee15c21.vercel.app/",
+  },
+  Business: {
     img: "assets/photos/corp.jpg",
     link_work:
-      "https://themeforest.net/item/surancy-insurance-agency-wordpress-theme/45980225",
+      "https://armyluck111.github.io/Business_Website/",
   },
-  RealEstate: {
-    img: "assets/photos/real.jpg",
+  Movies: {
+    img: "assets/photos/video-camera.png",
     link_work:
-      "https://themeforest.net/item/houzez-real-estate-wordpress-theme/15752549",
-  },
-  Motors: {
-    img: "assets/photos/moto.jpg",
-    link_work:
-      "https://themeforest.net/item/lexrider-motorcycle-club-woocommerce-wordpress-theme/23700786",
+      "https://armyluck111.github.io/Movies-Store-/",
   },
 };
 
